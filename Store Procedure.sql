@@ -1,8 +1,7 @@
 
 
 create procedure agregarColegio
-@Nombre varchar (40),
-@Fecha varchar (10)
+@Nombre varchar (40)
 AS
 begin
 insert into colegios values(@nombre) 
